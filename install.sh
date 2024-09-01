@@ -92,7 +92,7 @@ install_theme() {
     read -r SELECT_THEME
     case "$SELECT_THEME" in
       1)
-        THEME_URL=$(echo -e "https://github.com/prasszin/thema/raw/main/C2.zip")
+        THEME_URL=$(echo -e "https://github.com/prasszin/autoinstaller/raw/main/C2.zip")
         break
         ;;
       2)
@@ -100,7 +100,7 @@ install_theme() {
         break
         ;;
       3)
-        THEME_URL=$(echo -e "https://github.com/prasszin/thema/raw/main/C3.zip")
+        THEME_URL=$(echo -e "https://github.com/prasszin/autoinstaller/raw/main/C3.zip")
         break
         ;; 
       x)
@@ -226,7 +226,7 @@ uninstall_theme() {
   echo -e "${BLUE}[+]                    DELETE THEME                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
-  bash <(curl https://raw.githubusercontent.com/prasszin/thema/main/repair.sh)
+  bash <(curl https://raw.githubusercontent.com/prasszin/autoinstaller/main/repair.sh)
   echo -e "                                                       "
   echo -e "${GREEN}[+] =============================================== [+]${NC}"
   echo -e "${GREEN}[+]                 DELETE THEME SUKSES             [+]${NC}"
@@ -245,7 +245,7 @@ echo -e "${BLUE}[+] =============================================== [+]${NC}"
 echo -e "                                                                   "
 
 # Unduh file tema
-wget -O /root/C2.zip https://github.com/prasszin/thema/raw/main/C2.zip
+wget -O /root/C2.zip https://github.com/prasszin/autoinstaller/raw/main/C2.zip
 
 # Ekstrak file tema
 unzip /root/C2.zip -d /root/pterodactyl
