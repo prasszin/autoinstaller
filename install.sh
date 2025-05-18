@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                  © PRAS OFFICIAL                [+]${NC}"
+  echo -e "${BLUE}[+]                  © DYAS OFFICIAL                [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -56,7 +56,7 @@ install_jq() {
 check_token() {
   echo -e "                                                       "
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
-  echo -e "${BLUE}[+]               LICENSY PRAS OFFICIAL             [+]${NC}"
+  echo -e "${BLUE}[+]               LICENSY DYAS OFFICIAL             [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "                                                       "
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
@@ -66,10 +66,10 @@ check_token() {
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
     echo -e "${GREEN}Buy dulu Gih Ke PrasOffc${NC}"
-    echo -e "${YELLOW}TELEGRAM : @prasoffc${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6281214208808${NC}"
+    echo -e "${YELLOW}TELEGRAM : @DasOffc${NC}"
+    echo -e "${YELLOW}WHATSAPP : 6285150798125${NC}"
     echo -e "${YELLOW}HARGA TOKEN : 15K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©PrasOfficial${NC}"
+    echo -e "${YELLOW}©DyasOfficial${NC}"
     exit 1
   fi
   clear
