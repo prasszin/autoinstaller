@@ -1,7 +1,7 @@
 # Theme
 JANGAN DIJUAL BELAKAN YE BWANG !!!
 BUTUH LICENSE/PW CHAT TELE GUA
->> https://t.me/prasoffc
+>> BUY TOKEN PV : t.me/DyasOffc
 
 Comand Run Install Thema
 
